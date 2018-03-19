@@ -15,7 +15,7 @@ int prevClock = 0;
 float integral = 0;
 //                RS E  D4 D5 D6 D7
 LiquidCrystal lcd(2, 4, 5, 6, 9, 11);
-// initialize the stepper library on pins 8 through 11:
+// initialize the stepper library on pins 8 and 10:
 myStepper stepper(200, 8, 10); // DEBUG ME
 float pidController(float tempF, float desiredTemp, int currClock);
 
